@@ -26,4 +26,14 @@ public:
 	explicit SList(std::size_t size, const T& val) { }
 	//etc...
 
+	void empty();
+	void clear();
 };
+
+template<typename T>
+inline void SList<T>::empty()
+{ }
+
+template<typename T>
+inline void SList<T>::clear()
+{ }
